@@ -4,6 +4,8 @@ Esta imagen sirve para tratar con los siguientes datos sobre las plazas de emple
 
 - Detalles de las plazas de empleo (detalle_empleo.ttl).
 - Listado de los empleos (listado_empleo.ttl).
+
+
 Para ello hay un repositorio rdf llamado 'data' en GraphDB, el cual ya contiene dichos datos, para poder acceder a ellos hay que seguir unos pasos.
 
 -----------------------------------------------------------------------
