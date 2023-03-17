@@ -42,6 +42,7 @@ Nos vamos a la opción 'import' en la interfaz de la izquierda y pulsamos en cre
 En las opciones seleccionamos 'GraphDB repositories'.
 Lo creas con las especificaciones que usted quiera y selecciona el fichero rdf que hemos descargado.
 
+-----------------------------------------------------------------------
 ## Uso imagen DockerHub
 -----------------------------------------------------------------------
 
