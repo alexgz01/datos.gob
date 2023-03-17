@@ -1,7 +1,7 @@
 # Imagen base
 FROM ontotext/graphdb:10.1.5
 
-# Abrimos directorio de almacenamiento
+# Abrimos directorio de almacenamiento y la abrimos
 RUN mkdir /root/graphdb-import
 WORKDIR /root/graphdb-import
 
