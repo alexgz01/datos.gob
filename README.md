@@ -25,12 +25,12 @@ $ cd /datos.gob
 
 3. Creamos una imagen con nuestro Dockerfile:
 
-$ docker build -t <username>/<nombre_imagen> .
+$ docker build -t <user_name>/<nombre_imagen> .
 
 
 4. Creamos el contenedor con la imagen:
 
-$ docker run -p 7200:7200 --name <nombre_contenedor> <username>/<nombre_imagen>
+$ docker run -p 7200:7200 --name <nombre_contenedor> <user_name>/<nombre_imagen>
 
 
 5. Abrimos en el navegador el siguiente link:
@@ -47,29 +47,6 @@ Lo creas con las especificaciones que usted quiera y selecciona el fichero rdf q
 -----------------------------------------------------------------------
 ## Uso imagen DockerHub
 -----------------------------------------------------------------------
-<<<<<<< HEAD
-
-1. Descargamos la imagen:
-
-$ docker pull alejandrogomezalonso/empleos-zaragoza
-
-
-2. Creamos contenedor con la imagen:
-
-$ docker run -p 7200:7200 --name <nombre_contendor> alejandrogomezalonso/empleos-zaragoza
-
-
-3. Abrimos el puerto en el navegador:
-
-localhost:7200
-
-
-4. Consulta SPARQL:
-
-Encontramos que ya hay un repositorio rdf creado con los datos ya introducidos, solo tenemos que seleccionarlos para hacer la consulta sobre el .ttl que queramos.
-
-Como ejemplo, podemos hacer la siguiente:
-=======
 
 1. Descargamos la imagen:
 
@@ -92,4 +69,3 @@ Encontramos que ya hay un repositorio rdf creado con los datos ya introducidos, 
 
 Como ejemplo, podemos hacer la siguiente:
 
->>>>>>> 7590f4f9e2b9f4844ab660e83ba86f23e95586fd
