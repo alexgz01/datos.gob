@@ -50,12 +50,12 @@ Lo creas con las especificaciones que usted quiera y selecciona el fichero rdf q
 
 1. Descargamos la imagen:
 
-$ docker pull alejandrogomezalonso/empleos-zaragoza
+$ docker pull alejandrogomezalonso/empleos-zaragoza:1.0.0
 
 
 2. Creamos contenedor con la imagen:
 
-$ docker run -p 7200:7200 --name <nombre_contendor> alejandrogomezalonso/empleos-zaragoza
+$ docker run -p 7200:7200 --name <nombre_contendor> alejandrogomezalonso/empleos-zaragoza:1.0.0
 
 
 3. Abrimos el puerto en el navegador:
