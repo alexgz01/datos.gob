@@ -67,5 +67,13 @@ localhost:7200
 
 Encontramos que ya hay un repositorio rdf creado con los datos ya introducidos, solo tenemos que seleccionarlos para hacer la consulta sobre el .ttl que queramos.
 
-Como ejemplo, podemos hacer la siguiente:
+Como ejemplo, podemos hacer la siguiente, que nos devuelve una lista de los empleos, en los que se ofrecen plaza:
 
+PREFIX schema: <http://schema.org/>
+PREFIX oferta: <http://purl.org/ctic/empleo/oferta#>
+
+SELECT DISTINCT ?jobTitle
+WHERE {
+  ?job a schema:JobPosting, oferta:OfertaEmpleo ;
+       schema:name ?jobTitle .
+}
